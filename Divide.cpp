@@ -1,4 +1,4 @@
-nclude "Divide.h"
+#include "Divide.h"
 
 Divide::Divide()
 {

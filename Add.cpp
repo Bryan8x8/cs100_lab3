@@ -1,3 +1,5 @@
+#ifndef ADD_H
+#define ADD_H
 #include "Add.h"
 
 Add::Add()
@@ -16,3 +18,5 @@ double Add::evaluate()
 {
     return (value1->evaluate() + value2->evaluate());
 }
+
+#endif

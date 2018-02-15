@@ -1,3 +1,5 @@
+#ifndef MULT_H
+#define MULT_H
 #include "Mult.h"
 
 Mult::Mult()
@@ -16,3 +18,5 @@ double Mult::evaluate()
 {
     return (value1->evaluate() * value2->evaluate());
 }
+
+#endif

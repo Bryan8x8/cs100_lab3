@@ -1,3 +1,5 @@
+#ifndef SUBTRACT_H
+#define SUBTRACT_H
 #include "Subtract.h"
 
 Subtract::Subtract()
@@ -16,3 +18,5 @@ double Subtract::evaluate()
 {
     return (value1->evaluate() - value2->evaluate());
 }
+
+#endif

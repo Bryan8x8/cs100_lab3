@@ -1,3 +1,5 @@
+#ifndef OPERATION_H
+#define OPERATION_H
 #include <iostream>
 #include "Base.h"
 
@@ -9,3 +11,4 @@ class Operation : public Base
   public: 
     virtual double evaluate() = 0;
 };
+#endif

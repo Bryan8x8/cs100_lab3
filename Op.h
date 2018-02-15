@@ -1,7 +1,9 @@
+#ifndef OP_H
+#define OP_H
 #include <iostream>
 #include "Base.h"
 
-class Op : Base{
+class Op : public Base{
   private:
     double value;
   public: 
@@ -9,3 +11,5 @@ class Op : Base{
     Op(double);
     double evaluate();
 };
+
+#endif
