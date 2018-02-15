@@ -7,5 +7,5 @@ class Square : public Base{
   public: 
     Square();
     Square(Base*);
-    virtual double evaluate() = 0;
+    double evaluate();
 };

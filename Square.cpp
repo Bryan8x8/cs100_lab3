@@ -1,3 +1,6 @@
+#ifndef SQUARE_H
+#define SQUARE_H
+
 #include "Square.h"
 
 Square::Square()
@@ -14,3 +17,5 @@ double Square::evaluate()
 {
     return ((value1->evaluate()) * (value1->evaluate()));
 }
+
+#endif
