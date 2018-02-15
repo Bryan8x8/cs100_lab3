@@ -1,6 +1,8 @@
-fndef BUBBLE_SORT
+#ifndef BUBBLE_SORT
 #define BUBBLE_SORT
 #include "Sort.h"
+#include "container.h"
+
 using namespace std;
 
 

@@ -1,6 +1,8 @@
 #ifndef SELECTION_SORT
 #define SELECTION_SORT
 #include "Sort.h"
+#include "container.h"
+
 using namespace std;
 
 

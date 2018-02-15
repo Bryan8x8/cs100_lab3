@@ -1,5 +1,7 @@
+#ifndef __OPERATION_H__
+#define __OPERATION_H__
 #include <iostream>
-#include "Base.h"
+#include "component.h"
 
 class Operation : public Base
 {
@@ -8,4 +10,8 @@ class Operation : public Base
     Base* value2;
   public: 
     virtual double evaluate() = 0;
+Operation();
+
 };
+
+#endif

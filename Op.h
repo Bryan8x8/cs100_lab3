@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Base.h"
+#include "component.h"
 
-class Op : Base{
+class Op :public  Base{
   private:
     double value;
   public: 

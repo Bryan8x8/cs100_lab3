@@ -1,8 +1,10 @@
-fndef SORT_H
+#ifndef SORT_H
 #define SORT_H
 #include <iostream>
 #include "container.h"
-class Container;
+
+
+//class Container;
 class Sort {
 public:
  // Constructors

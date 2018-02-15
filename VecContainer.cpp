@@ -1,6 +1,10 @@
 #include "VecContainer.h"
+VecContainer::VecContainer() : Container() {}
 
-void VecContainer:: addElement(Base * element){
+VecContainer::VecContainer(Sort* func) : Container(func) {}
+
+
+void VecContainer::add_element(Base* element) {
   data.push_back(element);
 }
 

@@ -1,13 +1,13 @@
 #ifndef LIST_CONTAINER
 #define LIST_CONTAINER
 #include "container.h"
-#include "Base.h"
+
 #include <iostream>
 #include <list>
 
 using namespace std;
 
-class Sort;
+//class Sort;
 
 class ListContainer: public Container
 {

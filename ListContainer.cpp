@@ -1,5 +1,6 @@
 #include "ListContainer.h"
 #include <iterator>
+
 using namespace std;
 void ListContainer:: add_element(Base* element){
     data.push_back(element);
@@ -30,15 +31,15 @@ void ListContainer:: swap(int i, int j){
   iter_swap(a,b);
 }
 
-void ListContainer:: sort(){
+void ListContainer::sort(){
 
-  sort_function->sort(this);
+  sort_function->sort((Container*)this);
 }
 
 Base * ListContainer:: at(int i){
 
   list<Base*>::iterator it = data.begin();
-  for(i; i !=0; --i){
+  for(int j = 0; j < i; ++j){
     it++;
   }
   return *it;
