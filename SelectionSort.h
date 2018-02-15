@@ -1,6 +1,6 @@
 #ifndef SELECTION_SORT
 #define SELECTION_SORT
-#include "Sort.h"
+#include "strategy.h"
 #include "container.h"
 
 using namespace std;
@@ -9,7 +9,7 @@ using namespace std;
 class SelectionSort: public Sort
 {
 public:
-  SelectionSort(){};
+  SelectionSort(): Sort(){};
   void sort(Container* container);
 };
 #endif

@@ -1,6 +1,7 @@
 #ifndef VEC_CONTAINER
 #define VEC_CONTAINER
 #include "container.h"
+#include "strategy.h"
 #include <vector>
 #include <iostream>
 

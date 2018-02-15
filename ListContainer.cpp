@@ -31,7 +31,8 @@ void ListContainer:: swap(int i, int j){
   iter_swap(a,b);
 }
 
-void ListContainer::sort(){
+void ListContainer::sort()
+{
 
   sort_function->sort((Container*)this);
 }

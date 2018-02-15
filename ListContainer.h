@@ -1,6 +1,7 @@
 #ifndef LIST_CONTAINER
 #define LIST_CONTAINER
 #include "container.h"
+#include "strategy.h"
 
 #include <iostream>
 #include <list>

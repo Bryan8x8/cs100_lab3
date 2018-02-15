@@ -2,13 +2,18 @@
 //#include "composite.h"
 #include "VecContainer.h"
 #include "ListContainer.h"
-#include "Sort.h"
+#include "container.h"
+#include "strategy.h"
+#include "SelectionSort.h"
 #include "Op.h"
 #include "Mult.h"
 #include "Subtract.h"
 #include "Add.h"
 #include "Divide.h"
 #include "Sqr.h"
+#include "Decorator.h"
+#include "Floor.h"
+
 using namespace std;
 
 int main() {
@@ -20,8 +25,8 @@ int main() {
     Subtract* B = new Subtract(op3, op4);
     Add* C = new Add(A, B);
     Sqr* D = new Sqr(C);
-/*
-    VecContainer* container = new VecContainer();
+
+    //VecContainer* container = new VecContainer();
     ListContainer* container = new ListContainer();
     container->add_element(A);
     container->add_element(B);
@@ -32,6 +37,9 @@ int main() {
     container->sort();	
     cout << "Container After Sort: " << endl;
     container->print();
-*/
+
+    Op* op_test = new Op (3.2);
+    Floor* testfloor = new Floor (op_test);
+    cout<<op_test->evaluate() <<" " << testfloor->evaluate() << endl;
 
 };
