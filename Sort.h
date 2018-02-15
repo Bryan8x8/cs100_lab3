@@ -1,7 +1,7 @@
 #ifndef SORT_H
 #define SORT_H
 #include <iostream>
-#include "Container.h"
+#include "container.h"
 class Container;
 class Sort {
 public:
